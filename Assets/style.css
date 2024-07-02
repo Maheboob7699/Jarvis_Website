@@ -142,3 +142,92 @@ ul li a{
 .section-1 .container img{
     width: 92%;
 }
+
+/* section-1 End */
+
+.section-2{
+    margin-top: 100px;
+    background-color: #cfd7e2;
+    width: 100%;
+    height: 140vh;
+    text-align: center;
+    
+}
+
+
+.section-2 h1{
+    padding-top: 40px;
+  
+    color: var(--secondary-color);
+}
+
+.section-2 span{
+    color: black;
+}
+
+
+.section-2 p{
+ padding-top: 20px;
+ padding-left: 200px;
+ width: 85%;
+
+    
+}
+
+.section-2-box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.section-2 .section-2-box-left{
+    margin-top: 70px;
+    background-color: burlywood;
+    width: 35%;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.section-2 .section-2-box-left .icon-part{
+   
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.icon-part i{
+    color: #2b70c5;
+    font-size: 1.3rem;
+    margin-right: 20px;
+}
+
+.icon-part div div{
+    width: 200px;
+
+}
+
+
+
+.section-2 .section-2-box-right{
+    margin-top: 70px;
+    background-color: #303236;
+    width: 35%;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.section-2 .section-2-box-right img{
+    height: 500px;
+    width: 300px;
+  
+}
+
+/* section-2  */
+
