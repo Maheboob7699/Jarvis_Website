@@ -114,7 +114,7 @@ ul li a{
 
 .main .container  h1{
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 50px;
     line-height: 104.627%
 
 }
@@ -331,7 +331,7 @@ ul li a{
 /* section-3 */
 
 .section-3{
-    background-color:  #FFFFFF;
+    background-color:  #f7d9d9c4;
     height: 500px;
     width: 100%;
     position: relative;
@@ -385,3 +385,48 @@ ul li a{
 
 
 /* section-3 End */
+
+/*section-4   */
+
+.section-4{
+    
+    margin-top: 30px;
+    background-color: #cdd5e0;
+    height: 130vh;
+    width: 100%;
+}
+
+.section-4 h1{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.section-4 h1::after{
+    content: "Serve";
+    color: #2b70c5;
+}
+
+
+
+.section-4-box{
+  position: relative;
+  top: 100px;
+    display: grid;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    
+}
+
+
+.section-4-box-image-4{
+    margin-top: -90px;
+}
+
+.section-4-box-image-6{
+    margin-top: -65px;
+}
+/* section-4 End */
