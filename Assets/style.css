@@ -602,15 +602,22 @@ ul li a{
    
 }
 
+
+.section-8-box-right{
+    height: 500px;
+    background-color: chartreuse;
+    margin-left: 40px;
+}
+
 .section-8-box-right p {
   text-align: left;
-  padding-left: 42px;
+ 
   padding-top: 40px;
   font-size: 14px;
 }
 .section-8-box-right div{
     margin-top: 7px;
-    margin-left: 20px;
+    
     display: grid;
     row-gap: 7px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -648,7 +655,6 @@ ul li a{
     width: 160px;
     border: 1px solid rgba(48, 50, 54, .2);
     border-radius: 20px;
-
     padding-left: 20px;
     padding-top: 4px;
     display: flex;
