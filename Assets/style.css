@@ -556,16 +556,17 @@ ul li a{
 
 .section-8  .section-8-box{
     position: relative;
+    display: flex;
     background-color: #eff1f5;
     height: 600px;
-    width: 80%;
+    width: 90%;
     border-radius: 20px;
    top: 50px;
-   left: 100px;
+   left: 80px;
 }
 .section-8-box .section-8-box-left{
     height: 100%;
-    width: 350px;
+    width: 320px;
     background: #1566d6;
     border-top-left-radius:20px ;
     border-bottom-left-radius:20px ;
@@ -588,7 +589,7 @@ ul li a{
     text-align: left;
     padding-top: 110px;
     color: #FFFFFF;
-    padding-left: 80px;
+    padding-left: 60px;
 }
 
 
@@ -597,7 +598,93 @@ ul li a{
     color: #FFFFFF;
     width: 310px;
     text-align: left;
-    padding-left: 80px;
+    padding-left: 60px;
    
 }
+
+.section-8-box-right p {
+  text-align: left;
+  padding-left: 42px;
+  padding-top: 40px;
+  font-size: 14px;
+}
+.section-8-box-right div{
+    margin-top: 7px;
+    margin-left: 20px;
+    display: grid;
+    row-gap: 7px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+
+.section-8-box-right div div a{
+    text-decoration: none;
+    color: var(--light-black-color);
+}
+ .section-8-box-right div .class-1{
+    border: 1px solid rgba(48, 50, 54, .2);
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-top: 4px;
+   
+ }
+
+ .section-8-box-right div .class-2{
+    height: 30px;
+    width: 250px;
+    border: 1px solid rgba(48, 50, 54, .2);
+    border-radius: 20px;
+    display: flex;
+    padding-left: 16px;
+    padding-top: 4px;
+    margin-left: -65px;
+ }
+
+ .section-8-box-right div .class-3{
+    height: 30px;
+    width: 160px;
+    border: 1px solid rgba(48, 50, 54, .2);
+    border-radius: 20px;
+
+    padding-left: 20px;
+    padding-top: 4px;
+    display: flex;
+ }
+
+
+ .section-8-box-right div .class-4{
+    height: 30px;
+    width: 170px;
+    border: 1px solid rgba(48, 50, 54, .2);
+    border-radius: 20px;
+    margin-left: -10px;
+    padding-left: 17px;
+    padding-top: 4px;
+    display: flex;
+ }
+
+
+ .section-8-box-right div .class-5{
+    height: 30px;
+    width: 160px;
+    border: 1px solid rgba(48, 50, 54, .2);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 4px;
+    display: flex;
+ }
+
+ .section-8-box-right div .class-6{
+    height: 30px;
+    width: 150px;
+    border: 1px solid rgba(48, 50, 54, .2);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 4px;
+    margin-left: 10px;
+    display: flex;
+ }
 /* section-8 End */
