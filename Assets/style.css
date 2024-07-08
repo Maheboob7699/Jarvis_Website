@@ -547,19 +547,16 @@ ul li a{
 
 /* section-8  */
 .section-8{
-    
-    background-color: burlywood;
     height: 100vh;
     width:100%;
-
 }
 
 .section-8  .section-8-box{
     position: relative;
     display: flex;
-    background-color: #eff1f5;
     height: 600px;
     width: 90%;
+    border: 0.6px solid  rgb(216, 199, 231);
     border-radius: 20px;
    top: 50px;
    left: 80px;
@@ -605,7 +602,6 @@ ul li a{
 
 .section-8-box-right{
     height: 500px;
-    background-color: chartreuse;
     margin-left: 40px;
 }
 
@@ -692,5 +688,75 @@ ul li a{
     padding-top: 4px;
     margin-left: 10px;
     display: flex;
+ }
+ 
+ 
+ .section-8-input-top div{
+    margin-top: 60px;
+    gap: 40px;
+  
+   
+ }
+
+
+
+
+ .section-8-input-top label{
+    text-align: left;
+    color: var(--light-black-color);
+ }
+ .section-8-input-top label input{
+    margin-top: 7px;
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+ }
+
+
+
+ 
+ .section-8-input-bottom{
+    margin-top: 60px;
+    gap: 40px;
+  
+   
+ }
+
+ .section-8-input-bottom label{
+    text-align: left;
+    color: var(--light-black-color);
+ }
+
+ .section-8-input-bottom input{
+    margin-top: 7px;
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+ }
+ 
+ .section-8-input-bottom div{
+    margin-top: 30px;
+    margin-left: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50px;
+    width: 350px;
+    border: 1px solid #ebebeb;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+ }
+
+ .section-8-input-bottom div select{
+    border: none;
+ }
+ .section-8-input-bottom div input{
+    border: none;
+    width: 200px;
+    height: 40px;
+   
  }
 /* section-8 End */
