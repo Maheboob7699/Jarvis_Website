@@ -539,7 +539,7 @@ ul li a{
 
 .section-7-box div img{
     height: 100px;
-    width: 160px;
+    width: 170px;
     filter: grayscale(100);
 }
 /* section-7 End */
@@ -547,14 +547,14 @@ ul li a{
 
 /* section-8  */
 .section-8{
-    height: 100vh;
+    height: 110vh;
     width:100%;
 }
 
 .section-8  .section-8-box{
     position: relative;
     display: flex;
-    height: 600px;
+    height: 650px;
     width: 90%;
     border: 0.6px solid  rgb(216, 199, 231);
     border-radius: 20px;
@@ -758,5 +758,35 @@ ul li a{
     width: 200px;
     height: 40px;
    
+ }
+
+ #comment-area{
+    text-align: left;
+
+ }
+
+ #comment-area label{
+    color: var(--light-black-color);
+ }
+
+
+ #comment-area textarea{
+    border-radius: 10px;
+    border: 1px solid #ebebeb;
+
+ }
+
+ .start-button{
+    width: 86%;
+    font-family:"Lato",sans-serif;
+    font-size: 18px;
+    background: #1566d6;
+    border-color: #1566d6;
+    border-radius: 6px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: -120px;
+    
+    
  }
 /* section-8 End */
