@@ -629,14 +629,6 @@ ul li a{
     
    
 }
-.section-3 h1{
-   font-size: 50px;
-}
-
-.section-3 span{
-    color: var(--primary-color);
-}
-
 
 .section-3 .section-3-box{
     width: 80%;
@@ -651,10 +643,16 @@ ul li a{
 }
 
 
- .section-3-box  p{
+ .section-3-box .jarvis-para1{
     padding-top: 30px;
     color:var(--light-black-color);
 }
+
+.section-3-box .jarvis-para2{
+    color:var(--light-black-color);
+}
+
+
 .section-3-box .section-3-box-top{
     text-align: center;
     margin-top: 30px;
