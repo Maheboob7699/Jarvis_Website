@@ -492,6 +492,7 @@ ul li a{
 .section-6-box .section-6-box-top{
     display: flex;
     width: 75%;
+    height: auto;
     margin-left: 150px;
     justify-content: space-evenly;
     align-items: center;
@@ -500,6 +501,7 @@ ul li a{
 .section-6-box .section-6-box-bottom{
     display: flex;
     width: 75%;
+    height: auto;
     margin-left: 150px;
     justify-content: space-evenly;
     align-items: center;

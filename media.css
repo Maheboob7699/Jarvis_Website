@@ -20,7 +20,7 @@
     }
    
     .main .container{
-        margin-top: -170px;
+        margin-top: -20px;
         width: 100%;
 
     }
@@ -40,7 +40,7 @@
     }
      
     .section-1 .container{
-        margin-top: -30px;
+        margin-top: 10px;
     }
 
 
@@ -193,8 +193,86 @@
 
 
     .section-5{
-        margin-top: 100px;
+        margin-top:100px;
+        width: 100%;
+        /* height: auto; */
     }
+
+    .section-6{
+        width: 100%;
+        height:auto;
+    }
+    
+    .section-6 h1{
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .section-6 p{
+        text-align: center;
+        width: 95%;
+    }
+
+    .section-6-box{
+        width: 100%;
+        height: auto;
+    }
+
+    .section-6-box .section-6-box-top{
+        flex-direction: column;
+        margin-left:20px;
+    }
+
+    .section-6-box .section-6-box-bottom{
+        flex-direction: column;
+        margin-left:20px;
+        height: auto;
+    }
+
+    
+
+    .section-6-box-top img{
+        width: 100%;
+      
+    }
+
+    .section-6-box-bottom img{
+        width: 100%;
+      
+    }
+
+
+    .section-7{
+        width: 100%;
+        margin-top: 400px;
+        height: auto;
+    }
+
+    .section-7 h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .section-7 .section-7-box{
+        height:auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto ;
+        margin-top: 30px;
+        margin-left:0px;
+    }
+    
+
+    .section-7-box div{
+        width: 100%;
+    }
+
+    .section-7-box img{
+        width: 50%;
+        height: auto;
+    }
+
+
 
     
 
