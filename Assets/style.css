@@ -542,6 +542,7 @@ ul li a{
 }
 
 .section-7 h1{
+    text-align: center;
     font-size: 50px;
     color: var(--light-black-color);
 }
@@ -570,17 +571,16 @@ ul li a{
 }
 
 .section-8  .section-8-box{
-    position: relative;
+    /* position: relative; */
     display: flex;
-    height: 650px;
+    height: auto;
     width: 90%;
     border: 0.6px solid  rgb(216, 199, 231);
     border-radius: 20px;
-   top: 50px;
-   left: 80px;
+  
 }
 .section-8-box .section-8-box-left{
-    height: 100%;
+    height: 650px;
     width: 320px;
     background: #1566d6;
     border-top-left-radius:20px ;
@@ -588,7 +588,6 @@ ul li a{
 }
 
 .section-8-box-left div{
-    position: relative;
     background: rgba(255, 255, 255, .2);
     height: 150px;
     width: 150px;
@@ -596,15 +595,17 @@ ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 70px;
-    left: 80px;
+    margin-top:70px; ;
+    margin-left: 50px;
 }
 
 .section-8-box-left  h1{ 
     text-align: left;
-    padding-top: 110px;
+    font-size: 50px;
+    padding-top: 50px;
     color: #FFFFFF;
-    padding-left: 60px;
+    padding-left: 40px;
+
 }
 
 
@@ -619,8 +620,9 @@ ul li a{
 
 
 .section-8-box-right{
-    height: 500px;
+    height: auto;
     margin-left: 40px;
+
 }
 
 .section-8-box-right p {
@@ -737,6 +739,7 @@ ul li a{
  .section-8-input-bottom{
     margin-top: 60px;
     gap: 40px;
+    
   
    
  }
@@ -803,9 +806,7 @@ ul li a{
     border-radius: 6px;
     color: #FFFFFF;
     margin-top: 20px;
-    margin-left: -120px;
-    
-    
+ 
  }
 /* section-8 End */
 

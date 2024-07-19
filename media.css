@@ -272,11 +272,48 @@
         height: auto;
     }
 
+    .section-8{
+        width: 100%;
+        /* height: auto; */
+    }
 
+    .section-8-box{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        background-color:chartreuse ;
+      
+      
+    }
+
+    .section-8-box .section-8-box-left{
+        width: 100%;
+        height: auto;
+        border-top-right-radius:20px;
+        border-bottom-left-radius:0px;
+    }
+
+
+    .section-8-box .section-8-box-left  h1{
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .section-8-box .section-8-box-left p{
+        width: 100%;
+    }
+
+    
+    }
+
+   
 
     
 
-    }
+    
+
+
+
 
 
 
