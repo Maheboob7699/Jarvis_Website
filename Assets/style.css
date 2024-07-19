@@ -27,7 +27,7 @@ button{
     border-radius: 30px;
 }
 
-
+/* 
 html,body{
     width: 100%;
     height: 100%;
@@ -35,7 +35,7 @@ html,body{
     padding: 0px;
     overflow-x: hidden;
 
-} 
+}  */
 
 
 /* Navbar  */
@@ -792,10 +792,20 @@ ul li a{
 
 
  #comment-area textarea{
+    width: 730px;
+    height: auto;
     border-radius: 10px;
     border: 1px solid #ebebeb;
 
  }
+
+ #comment-area textarea::placeholder{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+ }
+
+
 
  .start-button{
     width: 86%;
@@ -813,48 +823,32 @@ ul li a{
 
 /* section-9 */
 
-.section-9{
+.footer{
+    background-color: chartreuse;
     height: 400px;
     width: 100%;
-    background: linear-gradient(0deg, rgba(21, 102, 214, 0.04) 0%, rgba(21, 102, 214, 0.04) 100%), #fff;
-    margin-top: 60px;
 }
 
-.section-9-box-top{
-    height: 200px;
-    border-bottom: 1px solid black;
+
+.footer-AI {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 170px;
+    border-bottom: 1px solid gray;
 }
-
-.section-9-box-left{
-    margin-left: 100px;
-   
+.footer-AI div{
+    margin-left: 30px;
 }
+.footer-AI .footer-para{
 
-.section-9-box-right{
-    margin-right: 100px;
-    width:390px;
-    text-align: left;
-    color: var(--light-black-color);
-    font-size: 20px;
+   width: 30%;
 }
 
 
-.section-9-box-middle{
-    background-color: #809fe0;
-    height: 300px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-.section-9-box-middle .middle-box1{
-    text-align: left;
-    background-color: coral;
-    height: 300px;
-    width: 400px;
-}
+
+
+
 
 /* section-9 End */
 
