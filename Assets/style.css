@@ -850,6 +850,8 @@ ul li a{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    background: linear-gradient(0deg, rgba(21, 102, 214, 0.04) 0%, rgba(21, 102, 214, 0.04) 100%), #fff;
+  
 
 }
 
@@ -900,6 +902,71 @@ ul li a{
     margin-top: 10px;
     color: #626b7f;
 }
+
+
+.footer-member{
+    background: linear-gradient(0deg, rgba(21, 102, 214, 0.04) 0%, rgba(21, 102, 214, 0.04) 100%), #fff;
+    height: 200px;
+    width: 100%;
+}
+.footer-bsal-section{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.footer-bsal-section div div{
+    margin-left: 30px;
+}
+
+
+.member-para{
+    margin-right: 30px;
+}
+.bsal-member{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100px;
+   
+}
+
+
+
+.bsal-member h4{
+    font-size: 20px;
+}
+.bsal-member2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 30px;
+    width: 230px;
+}
+
+.bsal-member2 h4{
+    font-size: 20px;
+}
+
+.footer-consultant{
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(21, 102, 214, 0.12) 0%, rgba(21, 102, 214, 0.12) 100%), #fff;
+}
+
+.Consultants-para{
+    margin-left: 30px;
+    color: #676e76;
+}
+
+.Consultants-para2{
+    margin-right:30px;
+    color: #676e76;
+}
+
+
+
 
 
 
