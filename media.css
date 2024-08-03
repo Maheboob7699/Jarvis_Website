@@ -1,5 +1,6 @@
 
 @media  (max-width:600px){
+    
     .navbar{
         position: fixed;
         top:0;
@@ -306,6 +307,12 @@
         width: 100%;
     }
 
+    .section-8-box-right div #class-2{
+        margin-left: 0px;
+        width: 90%;
+        height: auto;
+    }
+
     .section-8-box-right  div{
         width: 100%;
         grid-template-columns: none;
@@ -335,7 +342,7 @@
 
     .footer{
         margin-top: 720px;
-        background-color: chartreuse;
+      
         height: 400px;
         width: 100%;
     }
@@ -349,7 +356,6 @@
         padding-top: 30px;
 
         border-bottom: 1px solid gray;
-        background-color: beige;
     }
 
     .footer-AI .footer-logo{
@@ -364,9 +370,60 @@
         margin-left: -10px;
         
      }
+
+     .footer-container{
+        height:auto;
+        width: 100%;
+        flex-direction: column;
+      
+    }
+
+    .footer-container-para1{
+        width: 90%;
+    }
+    .footer-container-para2{
+        width: 90%;
+    }
      
 
+    .footer-container-para3{
+        width: 90%;
+    }
 
+    .footer-member{
+        height: auto;
+    }
+  
+    
+
+    .footer-bsal-section{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+       
+    }
+
+
+     .bsal-member2{
+     
+        width: 80%;
+        margin-left:0px;
+     }
+
+    .footer-consultant{
+        flex-direction: column;
+        height:140px;
+    }
+
+    .Consultants-para{
+        margin-top: 30px;
+    }
+
+    .Consultants-para2{
+        margin-bottom: 120px;
+    }
+
+}
 
    
 
@@ -375,8 +432,6 @@
 
 
 
-    
-    }
 
    
 
