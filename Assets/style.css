@@ -393,7 +393,6 @@ ul li a{
 /*section-4   */
 
 .section-4{
-    
     margin-top: 30px;
     height: 130vh;
     width: 100%;
@@ -415,11 +414,11 @@ ul li a{
 
 .section-4-box{
   position: relative;
-  top: 70px;
-  width: 95%;
+  top: 50px;
+  width: 90%;
     display: grid;
     justify-content: space-evenly;
-    row-gap: 20px;
+    row-gap: 10px;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     margin-left: 60px;
@@ -428,11 +427,11 @@ ul li a{
 .section-4-box div{
     margin-top:100px;
     height: auto;
-    width: 450px;
+    width: 400px;
 }
 
 .section-4-box div img{
-    width: 100%;
+    width: 350px;
     height: auto;
 }
 
@@ -465,7 +464,7 @@ ul li a{
     align-items: center;
     justify-content: center;
     height: 90px;
-    width: 190px;
+    width: 175px;
     overflow: hidden;
     border-radius: 15px;
     border: 1px solid rgb(194, 194, 194);
@@ -473,7 +472,6 @@ ul li a{
   
   .companys-logo {
     margin: 7% 9%;
-    column-gap: 3rem;
     display: flex;
     overflow-x: scroll;
     overflow: hidden;
@@ -530,8 +528,24 @@ ul li a{
 
 
 .partners-section{
-    background-color: #2b70c5;
     margin-top: 200px;
+}
+
+.jarvis-heading{
+    font-size: 50px;
+    font-weight:600px;
+    text-align: center;
+}
+
+
+
+.logo-div{
+    width:169.5px;
+}
+.partners-sub{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
 }
 
 /* section-5 End */
