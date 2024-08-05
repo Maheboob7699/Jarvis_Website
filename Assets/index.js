@@ -1,5 +1,27 @@
 
 
+// auto-Slider code started
+
+let count = 1;
+const removebg = () => {
+  let radioBtn = document.getElementById("radio-btn" + count);
+  radioBtn.style.backgroundColor = "#eef4fa";
+};
+
+setInterval(function () {
+  let radioBtn = document.getElementById("radio-btn" + count);
+  radioBtn.style.backgroundColor = "#1566d6";
+  document.getElementById("btn" + count).checked = true;
+  count++;
+  if (count > 2) {
+    count = 1;
+  }
+  removebg();
+}, 5000);
+// auto-Slider code end
+
+
+
 
 
 
