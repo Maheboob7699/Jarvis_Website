@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -417,21 +416,26 @@ ul li a{
 .section-4-box{
   position: relative;
   top: 70px;
+  width: 95%;
     display: grid;
     justify-content: space-evenly;
     row-gap: 20px;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    margin-left: 30px;
-    
+    margin-left: 60px;
 }
 
 .section-4-box div{
+    margin-top:100px;
     height: auto;
     width: 450px;
-    /* background-color: #667085;
-    border: 2px solid yellow; */
 }
+
+.section-4-box div img{
+    width: 100%;
+    height: auto;
+}
+
 
 
 
@@ -446,14 +450,89 @@ ul li a{
 }
 /* section-4 End */
 
+
 /* secxtion-5 */
+/* partners section code started */
+.logos-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    row-gap: 1rem;
+  }
+  
+  .logo-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 190px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px solid rgb(194, 194, 194);
+  }
+  
+  .companys-logo {
+    margin: 7% 9%;
+    column-gap: 3rem;
+    display: flex;
+    overflow-x: scroll;
+    overflow: hidden;
+  }
+  
+  .companys-logo::-webkit-scrollbar {
+    overflow: hidden;
+  }
+  
+  .slider {
+    position: relative;
+  }
+  
+  .slider-btn {
+    display: none;
+  }
+  
+  .slider-navigation {
+    position: absolute;
+    left: 49%;
+    top: 100%;
+  }
+  
+  .manual-btn {
+    border-radius: 20px;
+    background-color: #cacaca77;
+    padding: 0px 10px;
+    margin-right: 20px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  #radio-btn1 {
+    background-color: #1566d6;
+  }
+  
+  .manual-btn:hover {
+    background-color: #0d6efd;
+  }
+  
+  #btn1:checked ~ .first-slide {
+    transition: 0.8s ease-in-out;
+    /* background-color: #0056b3; */
+  }
+  
+  #btn2:checked ~ .first-slide {
+    margin-left: -100%;
+    transition: 0.8s ease-in-out;
+    /* background-color: #0056b3; */
+  }
+  
+  /* partners section code end */
 
-.section-5{
-    background-color: #667085;
-    height: 400px;
-    width: 100%;
+
+
+.partners-section{
+    background-color: #2b70c5;
+    margin-top: 200px;
 }
-
 
 /* section-5 End */
 
@@ -465,6 +544,7 @@ ul li a{
     height: 500px;
     width: 100%;
     text-align: center;
+
 }
 
 
@@ -482,8 +562,9 @@ ul li a{
 }
 
 .section-6 .section-6-box{
-    /* background-color: #2b70c5; */
     margin-top: 40px;
+    margin-left: 80px;
+    width: 90%;
     height: 300px;
    
    
@@ -553,7 +634,9 @@ ul li a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 30px;
-    margin-left: 130px;
+    margin-left: 170px;
+
+
 }
 
 .section-7-box div img{
@@ -577,6 +660,7 @@ ul li a{
     width: 90%;
     border: 0.6px solid  rgb(216, 199, 231);
     border-radius: 20px;
+    margin-left: 100px;
   
 }
 .section-8-box .section-8-box-left{
@@ -714,9 +798,11 @@ ul li a{
     border-radius: 20px;
     padding-left: 20px;
     padding-top: 4px;
-    margin-left: -10px;
+    margin-left: -70px;
     display: flex;
  }
+
+
  
  
  .section-8-input-top div{
@@ -739,6 +825,7 @@ ul li a{
     width: 350px;
     border-radius: 10px;
     border: 1px solid #ebebeb;
+    padding-left:20px;
  }
 
 
@@ -761,13 +848,14 @@ ul li a{
     margin-top: 7px;
     height: 50px;
     width: 350px;
+    padding-left: 20px;
     border-radius: 10px;
     border: 1px solid #ebebeb;
  }
  
  .section-8-input-bottom div{
     margin-top: 30px;
-    margin-left: -150px;
+    margin-left: -230px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -776,7 +864,7 @@ ul li a{
     width: 350px;
     border: 1px solid #ebebeb;
     border-radius: 7px;
-    background-color: #FFFFFF;
+
  }
 
  .section-8-input-bottom div select{
