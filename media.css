@@ -423,6 +423,25 @@
         margin-bottom: 120px;
     }
 
+
+    .logos-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        row-gap: 1.8rem;
+        margin-top: 5rem;
+        margin-right: 1rem;
+      }
+    
+      .logo-div {
+        height: 90px;
+        width: 9rem;
+        border: none;
+      }
+    
+      .companys-logo {
+        gap: 1.2rem;
+      }
+
 }
 
    
